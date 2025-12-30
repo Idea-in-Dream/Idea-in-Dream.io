@@ -923,7 +923,7 @@ function buildApp(data){
   const zero = document.createElement('section');
   zero.className = 'chapter';
   zero.dataset.chapter = data.zero?.chapter || 'PROLOGUE';
-  zero.dataset.narration = data.zero?.narration || '当倒计时结束，你将进入我们的故事。';
+  zero.dataset.narration = data.zero?.narration || '当倒计时结束，我们的故事开始啦';
   zero.innerHTML = `
     <div class="wrap">
       <div class="glass glowEdge">
@@ -935,7 +935,7 @@ function buildApp(data){
 
           <div class="ctaRow" style="justify-content:center;margin-top:14px;">
             <button class="btn" id="readyBtn" type="button" style="display:none;">
-              ${escapeHtml(data.zero?.buttonText || '我准备好了')}
+              ${escapeHtml(data.zero?.buttonText || '开始')}
             </button>
           </div>
         </div>
@@ -948,20 +948,20 @@ function buildApp(data){
   app.appendChild(zero);
 
   // 爱情动画页
-  const love = document.createElement('section');
-  love.className = 'chapter';
-  love.dataset.chapter = data.love?.chapter || 'CHAPTER I';
-  love.dataset.narration = data.love?.narration || '有些心动，不需要理由。';
-  love.innerHTML = sectionTemplate(data.love || {}, `
-    <div class="loveStage">
-      <canvas id="loveCanvas"></canvas>
-      <div class="loveOverlayText">
-        <p class="big">${escapeHtml(data.love?.bigText || 'Love')}</p>
-        <p class="small">${escapeHtml(data.love?.smallText || 'A moment becomes forever')}</p>
-      </div>
-    </div>
-  `);
-  app.appendChild(love);
+  // const love = document.createElement('section');
+  // love.className = 'chapter';
+  // love.dataset.chapter = data.love?.chapter || 'CHAPTER I';
+  // love.dataset.narration = data.love?.narration || '有些心动，不需要理由。';
+  // love.innerHTML = sectionTemplate(data.love || {}, `
+  //   <div class="loveStage">
+  //     <canvas id="loveCanvas"></canvas>
+  //     <div class="loveOverlayText">
+  //       <p class="big">${escapeHtml(data.love?.bigText || 'Love')}</p>
+  //       <p class="small">${escapeHtml(data.love?.smallText || 'A moment becomes forever')}</p>
+  //     </div>
+  //   </div>
+  // `);
+  // app.appendChild(love);
 
   // Intro（封面）
   const intro = document.createElement('section');
