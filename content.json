@@ -1,0 +1,168 @@
+{
+  "meta": {
+    "siteTitle": "Our Love Story",
+    "chapterLabelStyle": "CHAPTER"
+  },
+
+  "theme": {
+    "night": "#0a1040",
+    "text": "#FBF8F2",
+    "accent": "#E8C78F",
+    "blush": "#FF9DB3",
+    "sky": "#7aa7ff"
+  },
+
+  "music": {
+    "enabled": false,
+    "file": "assets/bgm.mp3",
+    "buttonLabel": "BGM"
+  },
+
+  "intro": {
+    "chapter": "CHAPTER I",
+    "title": "A Love Story",
+    "subtitle": "从遇见你开始，世界就变得更亮了。",
+    "narration": "如果时间能倒带，我还是会选择走向你。",
+    "body": "我一直想用一种更有仪式感的方式，把我们的故事讲给你听。不是普通的页面，而像一部电影的片头。现在，故事开始了。",
+    "scrollHint": "Scroll",
+    "coverImage": "assets/cover.jpg"
+  },
+
+  "timeline": {
+    "chapter": "CHAPTER II",
+    "title": "Timeline",
+    "subtitle": "每一个月，都值得被记住。",
+    "narration": "向下滚动，像翻阅一本只属于我们的相册。",
+    "months": [
+      {
+        "month": "Jan",
+        "title": "一月 · 初见的光",
+        "caption": "那天的风很轻，但你出现的瞬间，像把世界点亮。",
+        "narration": "一月：我第一次意识到，原来心动是有声音的。",
+        "image": "assets/01.jpg"
+      },
+      {
+        "month": "Feb",
+        "title": "二月 · 靠近一点点",
+        "caption": "我们开始分享日常，像把彼此写进生活里。",
+        "narration": "二月：你随口说的话，我都认真记了很久。",
+        "image": "assets/02.jpg"
+      },
+      {
+        "month": "Mar",
+        "title": "三月 · 春天的答案",
+        "caption": "你笑起来的时候，春天就真的来了。",
+        "narration": "三月：我开始期待每一次见面，像期待春天的花开。",
+        "image": "assets/03.jpg"
+      },
+      {
+        "month": "Apr",
+        "title": "四月 · 一起走的路",
+        "caption": "路再长也不怕，因为你在身边。",
+        "narration": "四月：我发现陪伴不是轰轰烈烈，而是你一直在。",
+        "image": "assets/04.jpg"
+      },
+      {
+        "month": "May",
+        "title": "五月 · 心事被听见",
+        "caption": "你总能在我沉默时，看懂我没说出口的情绪。",
+        "narration": "五月：你给的安全感，是我最想珍惜的礼物。",
+        "image": "assets/05.jpg"
+      },
+      {
+        "month": "Jun",
+        "title": "六月 · 夏日的约定",
+        "caption": "我们把想去的地方写成清单，像写下未来。",
+        "narration": "六月：我开始偷偷想象，我们的“以后”会是什么样子。",
+        "image": "assets/06.jpg"
+      },
+      {
+        "month": "Jul",
+        "title": "七月 · 热烈与温柔",
+        "caption": "再忙再累，只要你一句话，我就能被治愈。",
+        "narration": "七月：我喜欢你的热烈，也心疼你的温柔。",
+        "image": "assets/07.jpg"
+      },
+      {
+        "month": "Aug",
+        "title": "八月 · 见你就开心",
+        "caption": "你出现的时候，我的坏情绪就自动退场。",
+        "narration": "八月：原来“想见你”三个字，真的能把人变勇敢。",
+        "image": "assets/08.jpg"
+      },
+      {
+        "month": "Sep",
+        "title": "九月 · 更懂彼此",
+        "caption": "我们学会了好好沟通，也学会了更坚定地选择。",
+        "narration": "九月：我喜欢我们认真对待彼此的样子。",
+        "image": "assets/09.jpg"
+      },
+      {
+        "month": "Oct",
+        "title": "十月 · 把你放在心上",
+        "caption": "你不是我生活的“某一部分”，你是我的“重要”。",
+        "narration": "十月：我想把你介绍给我的未来，认真地那种。",
+        "image": "assets/10.jpg"
+      },
+      {
+        "month": "Nov",
+        "title": "十一月 · 靠近家的方向",
+        "caption": "我们开始谈论更长远的事，像在搭建一个共同的家。",
+        "narration": "十一月：我越来越确定——你就是我想牵一辈子的人。",
+        "image": "assets/11.jpg"
+      },
+      {
+        "month": "Dec",
+        "title": "十二月 · 这一年最好的事",
+        "caption": "是遇见你，是拥有你，是我们一起走到这里。",
+        "narration": "十二月：如果要选一个最幸福的瞬间，我希望是每一个有你的日子。",
+        "image": "assets/12.jpg"
+      }
+    ]
+  },
+
+  "attracted": {
+    "chapter": "CHAPTER III",
+    "title": "Why I'm drawn to you",
+    "subtitle": "我为什么会被你吸引？我想，这些就是答案。",
+    "narration": "我喜欢你，不是因为你完美，而是因为你真实又温柔。",
+    "bullets": [
+      "你认真生活的样子，让我觉得一切都值得。",
+      "你温柔但有力量，能在不经意间治愈我。",
+      "你对世界保持热爱，也对我保持耐心。",
+      "你让我想成为更好的人，但从不让我有压力。"
+    ]
+  },
+
+  "guess": {
+    "chapter": "CHAPTER IV",
+    "title": "Do you know what I want to say most?",
+    "subtitle": "你猜，我最想对你说什么？",
+    "narration": "别急，先猜一猜。因为你的答案，会让我更心动。",
+    "options": [
+      "“我好想你。”",
+      "“谢谢你来到我的世界。”",
+      "“我想一直牵着你。”",
+      "“我们把未来写在一起吧。”"
+    ],
+    "revealText": "其实我最想说的是：从遇见你开始，我就不想再错过你。每一次靠近，都是我认真选择的结果。"
+  },
+
+  "proposal": {
+    "chapter": "CHAPTER V",
+    "title": "The Question",
+    "subtitle": "这一刻，我想把所有的勇气都用在你身上。",
+    "narration": "如果你愿意，我想把余生都写成我们的故事。",
+    "question": "你愿意嫁给我吗？",
+    "buttonText": "YES",
+    "afterText": "我会用一生的认真与温柔，去爱你、保护你、陪你走过每一个平凡与闪光的日子。"
+  },
+
+  "finale": {
+    "title": "I Love You",
+    "subtitle": "Press Esc to exit",
+    "durationSeconds": 12,
+    "enableSmokeLayer": true
+  }
+}
+
